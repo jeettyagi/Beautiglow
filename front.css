@@ -1,0 +1,133 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Left Section */
+.left-section {
+    flex: 1;
+    background-color: #f0e6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.left-section .logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.left-section h1 {
+    font-size: 2rem;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Right Section */
+.right-section {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.right-section h2 {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000 !important;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.select {
+    font-size: 16px;
+    padding: 9px 0px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #4a148c;
+}
+
+.form-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.animate-1 {
+    background: #edaecc;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    left: -100px;
+    top: -100px;
+}
+
+.animate-2 {
+    background: #edaecc;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    right: -100px;
+    bottom: -100px;
+}
